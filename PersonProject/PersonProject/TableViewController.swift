@@ -1,18 +1,18 @@
 //
 //  TableViewController.swift
-//  test
+//  PersonProject
 //
-//  Created by Holzer Teresa on 19.11.21.
+//  Created by Holzer Teresa on 26.11.21.
 //
 
 import UIKit
 
 class TableViewController: UITableViewController {
-    var model: Model?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -29,20 +29,18 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        // wenn model.attempts.count = nil dann 0 zurückgeben
-        return model?.attempts.count ?? 0
+        return 1
     }
 
-    
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "attempt", for: indexPath)
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+
         // Configure the cell...
-        cell.textLabel?.text = "\(model!.attempts[indexPath.row])"
-        
+
         return cell
     }
-    
+    */
 
     /*
     // Override to support conditional editing of the table view.
