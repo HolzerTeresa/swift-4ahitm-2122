@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var model = Model()
+    
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
     
@@ -19,5 +21,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func Add(_ sender: Any) {
+        
+    }
 }
 

@@ -16,6 +16,8 @@
 		CE29D5BF275A03FD0065B210 /* nameProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D5BE275A03FD0065B210 /* nameProjectTests.swift */; };
 		CE29D5C9275A03FD0065B210 /* nameProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D5C8275A03FD0065B210 /* nameProjectUITests.swift */; };
 		CE29D5CB275A03FD0065B210 /* nameProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D5CA275A03FD0065B210 /* nameProjectUITestsLaunchTests.swift */; };
+		CE29D5D8275A0A020065B210 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D5D7275A0A020065B210 /* Model.swift */; };
+		CE29D5DA275A0E1D0065B210 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D5D9275A0E1D0065B210 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CE29D5C4275A03FD0065B210 /* nameProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nameProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE29D5C8275A03FD0065B210 /* nameProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameProjectUITests.swift; sourceTree = "<group>"; };
 		CE29D5CA275A03FD0065B210 /* nameProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE29D5D7275A0A020065B210 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE29D5D9275A0E1D0065B210 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 				CE29D5A9275A03FC0065B210 /* SceneDelegate.swift */,
 				CE29D5AB275A03FC0065B210 /* ViewController.swift */,
 				CE29D5AD275A03FC0065B210 /* Main.storyboard */,
+				CE29D5D9275A0E1D0065B210 /* TableViewController.swift */,
 				CE29D5B0275A03FC0065B210 /* Assets.xcassets */,
 				CE29D5B2275A03FC0065B210 /* LaunchScreen.storyboard */,
 				CE29D5B5275A03FC0065B210 /* Info.plist */,
+				CE29D5D7275A0A020065B210 /* Model.swift */,
 			);
 			path = nameProject;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 				CE29D5AC275A03FC0065B210 /* ViewController.swift in Sources */,
 				CE29D5A8275A03FC0065B210 /* AppDelegate.swift in Sources */,
 				CE29D5AA275A03FC0065B210 /* SceneDelegate.swift in Sources */,
+				CE29D5DA275A0E1D0065B210 /* TableViewController.swift in Sources */,
+				CE29D5D8275A0A020065B210 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
