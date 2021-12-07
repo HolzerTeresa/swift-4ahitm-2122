@@ -16,6 +16,7 @@
 		4005738B2750CCEF000866FA /* PersonProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005738A2750CCEF000866FA /* PersonProjectTests.swift */; };
 		400573962750CCEF000866FA /* PersonProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400573952750CCEF000866FA /* PersonProjectUITests.swift */; };
 		400573A82750D23D000866FA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400573A72750D23D000866FA /* TableViewController.swift */; };
+		40AB8264275F9D77000CC2B1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB8263275F9D77000CC2B1 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		400573952750CCEF000866FA /* PersonProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProjectUITests.swift; sourceTree = "<group>"; };
 		400573972750CCEF000866FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		400573A72750D23D000866FA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		40AB8263275F9D77000CC2B1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				4005737C2750CCEF000866FA /* Assets.xcassets */,
 				4005737E2750CCEF000866FA /* LaunchScreen.storyboard */,
 				400573812750CCEF000866FA /* Info.plist */,
+				40AB8263275F9D77000CC2B1 /* Model.swift */,
 			);
 			path = PersonProject;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40AB8264275F9D77000CC2B1 /* Model.swift in Sources */,
 				400573782750CCED000866FA /* ViewController.swift in Sources */,
 				400573742750CCED000866FA /* AppDelegate.swift in Sources */,
 				400573762750CCED000866FA /* SceneDelegate.swift in Sources */,

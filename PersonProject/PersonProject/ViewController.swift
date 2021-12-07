@@ -8,14 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-
+    var model = Model()
+    var countNames = 0
+    
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
     @IBOutlet weak var buttonSubmit: UIButton!
-    
-    var firstName = ""
-    var lastName = ""
     
     
     override func viewDidLoad() {
@@ -25,12 +23,20 @@ class ViewController: UIViewController {
 
     
     @IBAction func submitButton(_ sender: Any) {
-        firstName = firstNameTextField.text!
-        lastName = lastNameTextField.text!
+        model.firstnameArray[countNames] = firstNameTextField.text!
+        model.lastnameArray[countNames] = lastNameTextField.text!
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let tableViewController  = segue.destination as? TableViewController
+        tableViewController?.model = model
     
+    }
+    
+    //override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        
+    //}
     
 
 }

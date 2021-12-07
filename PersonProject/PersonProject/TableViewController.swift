@@ -8,7 +8,9 @@
 import UIKit
 
 class TableViewController: UITableViewController {
-
+    var model = Model()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,18 +31,22 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        return model.firstnameArray.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "nameCells", for: indexPath)
 
-        // Configure the cell...
+        let allFirstNames = model.firstnameArray[indexPath.row]
+        let allLastNames = model.lastnameArray[indexPath.row]
+        
+        cell.textLabel!.text = allFirstNames
+        cell.detailTextLabel!.text = allLastNames
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
